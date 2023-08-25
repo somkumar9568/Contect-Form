@@ -24,7 +24,7 @@ export default function Form(props) {
 
     if (name && email && phoneNumber && address && message) {
       const res = await fetch(
-        "https://contect-form-2ba5d-default-rtdb.firebaseio.com/youtuberform.json",
+        "https://contect-form-2ba5d-default-rtdb.firebaseio.com/Contectform.json",
         {
           method: "POST",
           headers: {
